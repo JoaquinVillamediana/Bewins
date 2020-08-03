@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css"> -->
+    <link rel="stylesheet" href="css/index.css">
+    <link href="aos/aos.css" rel="stylesheet">
+    <title>Bewins</title>
+</head>
+
+<script>
+    var headerHamburger = false;
+</script>
+
+<body>
+
+
+
+    <div id="particles-js" class="container-general">
+        <div class="container-fluid section-title">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/img1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/img2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/img3.jpg" alt="Third slide">
+                    </div>
+                    <div class="overlay"></div>
+                    <div class="title">
+                        <span id="title-1">Bewins</span>
+                    </div>
+                    <div id="brand-description" class="description">
+                        <p>Marketing Inmobiliario de calidad.</p>
+                    </div>
+                    <div class="header-mobile">
+                        <div class="content">
+                            <div class="language" style="float: right;" onclick="location.assign('Eng/index.html');">ENGLISH</div>
+                        </div>
+
+                        <img class="hamburger_btn" onclick="onHeaderHamburgerToggle();" src="img/hamburger_off.png" />
+                        <div class="hamburger_menu" style="display: none;">
+                            <img class="hamburger_btn" onclick="onHeaderHamburgerToggle();" src="img/hamburger_on.png" />
+
+                            <div class="sub_nav">
+                                <a style="color: rgb(255,255,255);" href="#" target="_self">HOME</a>
+                                <a href="#" target="_self">TOURS 3D</a>
+                                <a href="" target="_self">DRONE VIDEOS</a>
+                                <a href="" target="_self">PRICING</a>
+                                <a href="" target="_self">CONTACTO</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" container-nav">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                            <a class="navbar-brand" href="#">LOGO</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tours 3D</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Drone Videos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Pricing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contacto</a>
+                                    </li>
+                                    <li class="ml-3 nav-item">
+                                        <a class="nav-link font-weight-bold" href="#">ENGLISH</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-tours container-fluid">
+            <div class="row">
+                <div id="img-tours" data-aos="fade-down" data-aos-delay="0" data-aos-offset="0" class="col-md-4 col-12 image">
+                    <img src="img/tours.jpg" alt="">
+                </div>
+                <div id="legend-tours" data-aos="fade-down" data-aos-delay="100" data-aos-offset="0" class="col-md-4 col-12 legend">
+                    <div class="box">
+                        <h3 class="title">
+                            Tours 3D Personalizados
+                        </h3>
+                        <div class="row mt-5">
+                            <div class="col-6">
+                                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                                <lottie-player class="lot-360" src="https://assets8.lottiefiles.com/datafiles/UmYHZnjcKIswUlt/data.json" background="transparent" speed="1" style="width: 100%; height: 200px;" loop autoplay>
+                                </lottie-player>
+                            </div>
+                            <div class="col-6">
+                                <p class="description">Ofrecemos generar tour virtuales para las propiedades medinate recorridos 3D</p>
+                                <a href="" class="btn-3d btn btn-custom">Ver más</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="img-tours-2" data-aos="fade-down" data-aos-delay="200" data-aos-offset="0" class="col-md-4 col-12 image-2">
+                    <img src="img/tours-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="section-drone container-fluid">
+            <div class="row">
+
+                <div data-aos="zoom-out-right" data-aos-delay="100" id="legend-drone" class="col-md-4 col-12 legend">
+                    <div class="box">
+                        <h3 class="title">
+                            Tomas Aereas
+                        </h3>
+                        <div class="row mt-5 w-100">
+
+                            <div class="col-6">
+                                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                                <lottie-player class="lot-drone" src="https://assets9.lottiefiles.com/packages/lf20_ZNmWRs.json" background="transparent" speed="1" style="width: 100%; height: 200px;" loop autoplay>
+                                </lottie-player>
+
+                            </div>
+                            <div class="col-6">
+                                <p class="description">Ofrecemos tomas aereas desde drones para una mejor visibilidad de la propiedas.</p>
+                                <a href="" class="btn-3d btn btn-custom">Ver más</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="img-drone" data-aos="fade-up" data-aos-delay="200" class="col-md-4 col-12 image">
+                    <img src="img/drone.jpg" alt="">
+                </div>
+                <div id="img-drone-2" data-aos="zoom-in-up" data-aos-delay="300" class="col-md-4 col-12 image-2">
+                    <img src="img/drone-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid section-contact">
+        <div class="container">
+            <h2 class="title-contact">Trabaja con nosotros</h2>
+        </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+
+
+    <!-- scripts -->
+    <!-- <script src="js/anijs-min.js"></script> -->
+    <!-- <script src="js/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script> -->
+    <script src="js/particles.js"></script>
+    <script src="aos/aos.js"></script>
+    <script src="js/app.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+<script>
+    AOS.init();
+</script>
+<script>
+    $(document).ready(() => {
+        // $('#title-1').slideDown(1300);
+        // $('#brand-description').slideDown(2000);
+        // $('#img-tours').fadeIn(1500);
+        // $('#legend-tours').slideToggle(1800);
+
+        // $('#img-drone').fadeIn(3000);
+        // $('#legend-drone').slideToggle(2800);
+    })
+</script>
+
+<script>
+    /* When the user clicks on the button, 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                toggle between hiding and showing the dropdown content */
+    function onHeaderHamburgerToggle() {
+
+        var menu_w = $('.hamburger_menu').width() + 30;
+
+        if (headerHamburger) {
+            $('.hamburger_menu').css({
+                'right': '0',
+                'left': ''
+            }).animate({
+                'right': '-' + menu_w + 'px'
+            });
+        } else {
+            $('.hamburger_menu').show();
+            $('.hamburger_menu').css({
+                'right': '-' + menu_w + 'px',
+                'left': ''
+            }).animate({
+                'right': '0'
+            });
+        }
+
+        headerHamburger = !headerHamburger;
+    }
+</script>
+
+</html>

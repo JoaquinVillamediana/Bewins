@@ -1,0 +1,460 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.bg-white {
+    background-color: transparent !important;
+}
+
+.container-general {
+    /* background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+    background-position-y: 4300px; */
+}
+
+#particles-js {
+    /* width: 100%;
+    height: 100%; */
+    background-color: #5e5e5e;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+canvas.particles-js-canvas-el {
+    position: absolute;
+    top: 20vh;
+    z-index: 0;
+}
+
+.container-nav {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    transition: ease;
+    border-bottom: 2px solid #ffffff;
+}
+
+.section-title .carousel-item {
+    z-index: 1;
+}
+
+.section-title .carousel-item img {
+    filter: blur(5px);
+    object-fit: cover;
+    height: 20vh;
+}
+
+.section-title {
+    padding: 0 !important;
+}
+
+.section-title .overlay {
+    position: absolute;
+    top: 0;
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 10;
+    border-bottom: 2px solid #ffffff;
+}
+
+.section-title .title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #000000;
+    z-index: 10;
+    top: 5vh;
+}
+
+.section-title span {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    /* display: none; */
+}
+
+.section-title span sub {
+    font-size: 20px;
+    /* display: none; */
+}
+
+.btn-custom {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.btn-custom:hover {
+    background-color: #000000;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    color: #cccccc;
+}
+
+
+/* SECTION TOURS IN */
+
+.section-tours {
+    margin-top: 150px;
+}
+
+.section-tours #img-tours,
+.section-tours #legend-tours {
+    /* display: none; */
+}
+
+.section-tours .image {
+    z-index: 10;
+    padding-right: 0 !important;
+}
+
+.section-tours .image-2 {
+    z-index: 10;
+    padding-left: 0 !important;
+}
+
+.section-tours .image img {
+    width: 100%;
+    float: right;
+    height: 350px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.section-tours .image-2 img {
+    width: 100%;
+    float: left;
+    border-radius: 12px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.section-tours .legend {
+    z-index: 10;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.section-tours .legend .box {
+    width: 100%;
+    margin-top: 100px;
+    height: 350px;
+    border-radius: 12px;
+    float: left;
+    -webkit-box-shadow: 52px -2px 142px -100px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 52px -2px 142px -100px rgba(0, 0, 0, 0.7);
+    box-shadow: 52px -2px 142px -100px rgba(0, 0, 0, 0.7);
+    background-color: #f2f2f2;
+}
+
+
+/* .section-tours .overlay-shadow,
+.section-drone .overlay-shadow {
+    position: absolute;
+    z-index: 20;
+    height: 350px;
+    top: 100px;
+    border-radius: 12px;
+    width: 100%;
+    background: rgb(147, 147, 147);
+    background: linear-gradient(180deg, rgba(147, 147, 147, 1) 0%, rgba(255, 255, 255, 0) 100%);
+} */
+
+.section-tours .legend .box .title {
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.section-tours .legend .description {
+    position: absolute;
+    max-width: 280px;
+    left: -60px;
+}
+
+.section-tours .legend .btn-3d {
+    left: 25px;
+    top: 100px;
+    position: absolute;
+}
+
+
+/* SECTION TOURS OUT */
+
+
+/* SECTION DRONE IN */
+
+.section-drone {
+    margin-top: 30px;
+}
+
+.section-drone #img-drone,
+.section-drone #legend-drone {
+    /* display: none; */
+}
+
+.section-drone .image {
+    z-index: 10;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.section-drone .image-2 {
+    z-index: 10;
+    padding-left: 0 !important;
+}
+
+.section-drone .image img {
+    width: 100%;
+    float: left;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.section-drone .image-2 img {
+    width: 100%;
+    border-radius: 12px;
+    float: left;
+    margin-top: -100px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.section-drone .legend {
+    padding-right: 0 !important;
+    z-index: 10;
+}
+
+.section-drone .legend .box {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 100px;
+    height: 350px;
+    float: right;
+    background-color: #f2f2f2;
+    -webkit-box-shadow: -79px -2px 97px -106px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: -79px -2px 97px -106px rgba(0, 0, 0, 0.7);
+    box-shadow: -79px -2px 97px -106px rgba(0, 0, 0, 0.7);
+}
+
+.section-drone .legend .box .title {
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.section-drone .legend .description {
+    position: absolute;
+    left: -20px;
+    max-width: 280px;
+}
+
+.section-drone .legend .btn-3d {
+    left: 70px;
+    top: 140px;
+    position: absolute;
+}
+
+@media (orientation:portrait) {
+    #brand-description p {
+        max-width: 80%;
+        margin: auto;
+    }
+    .section-drone .image img {
+        margin-top: -50px;
+        height: 270px;
+        width: 85%;
+        max-width: 315px;
+    }
+    .section-drone .legend .description {
+        left: -36px;
+        top: -36px;
+        max-width: 164px;
+    }
+    .section-drone .legend .btn-3d {
+        left: -15px;
+        top: 100px;
+    }
+    #legend-drone .box .title {
+        position: relative;
+        z-index: 10;
+    }
+    .lot-drone {
+        margin-top: -90px;
+    }
+    #legend-drone .box {
+        max-width: 315px;
+        margin-top: 90px;
+        height: 270px;
+        width: 85%;
+    }
+    #legend-drone {
+        z-index: 11;
+    }
+    /*  */
+    .section-tours .image img {
+        height: 270px;
+        width: 85%;
+        max-width: 315px;
+    }
+    .section-tours .legend .description {
+        left: -36px;
+        top: -36px;
+        max-width: 164px;
+    }
+    .section-tours .legend .btn-3d {
+        left: -15px;
+        top: 70px;
+    }
+    #legend-tours .box .title {
+        position: relative;
+        z-index: 10;
+    }
+    .lot-360 {
+        margin-top: -90px;
+    }
+    #legend-tours .box {
+        max-width: 315px;
+        margin-top: -90px;
+        height: 270px;
+        width: 85%;
+    }
+    .image-2 {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+}
+
+
+/* HAMBURGER MENU */
+
+.header-mobile {
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .4);
+    border-bottom: 2px solid rgba(0, 0, 0, .8);
+    z-index: 1000;
+}
+
+.header-mobile .language {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+}
+
+.header-mobile .content {
+    width: 70%;
+    float: left;
+    margin-left: 5%;
+    padding-top: 20px;
+}
+
+.hamburger_menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 240px;
+    padding: 15px;
+    background-color: rgba(223, 223, 223, .9);
+    height: 100%
+}
+
+.hamburger_menu .hamburger_btn {
+    float: right;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.hamburger_menu .sub_nav {
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.hamburger_menu .sub_nav a {
+    float: left;
+    width: 100%;
+    text-align: right;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: #000;
+    text-decoration: none;
+}
+
+.hamburger_menu .sub_nav .active {
+    color: #FFF;
+    font-weight: 800;
+}
+
+.hamburger_menu .sub_nav a:nth-child(even) {
+    margin: 0;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+@media (orientation: portrait) {
+    .hamburger_btn {
+        display: block;
+        float: right;
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .content .logo {
+        display: block;
+        width: 175px;
+        float: left;
+        margin-top: 5px;
+        margin-left: -30px;
+    }
+    .content ul {
+        display: none;
+    }
+    .content {
+        width: 70%;
+    }
+}
+
+@media (orientation: landscape) {
+    .header-mobile {
+        display: none;
+    }
+    .hamburger_btn {
+        display: none;
+    }
+    .hamburger_menu {
+        display: none;
+    }
+}
+
+
+/* HAMBURGER MENU OFF */
